@@ -14,3 +14,47 @@ pip install -r requirements.txt
 python main.py
 ```
 This is changes made in neuro lab.
+
+Git Commands
+
+If you are starting a project and you want to use git in your project
+````
+git init
+````
+Note : This is going to initalize git in your source code.
+
+OR
+
+You can clone exiting github repo
+````
+git clone <github_url>
+````
+Note: Clone/Download github repo in your system
+
+Add you changes made in file to git stagging are 
+````
+git add file_name
+````
+Note: You can give file_name to add specific or use '.' to add everything to stagging are
+
+Create commant
+````
+git commit -m 'message'
+````
+
+````
+git push origin main
+````
+Note: origin--> contains url to github repo
+main--> is your branch name
+
+To push your changes force fully
+```
+git push origin main -f
+
+To pull changes from github repo
+````
+git push origin main
+````
+Note: origin--> contains url to github repo
+main--> is your branch name
